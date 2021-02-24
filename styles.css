@@ -1,0 +1,98 @@
+.container {
+    margin: 0 auto;
+    width: 400px;
+    height:600px;
+    border: 1px solid #eae6ec;
+    background-color: #eae6ec;
+}
+
+.header{
+    height: 200px;
+    width: 380px;
+    margin: 0 auto;
+    margin-top: 10px;
+    border-radius: 25px;
+    background: url(mountains.jpg);
+    position: relative;
+}
+
+.clear {
+    position: absolute;
+    right: 0;
+    padding: 25px;
+    color: white;
+    font-size: 20px;
+}
+
+#date {
+    position: absolute;
+    bottom: 0;
+    padding: 15px;
+    color: white;
+    font-size: 20px;
+    font-family: "helvetica";
+}
+
+.content{
+    height: 365px;
+    width: 380px;
+    margin: 0 auto;
+    margin-top: 10px;
+    border-radius: 25px;
+    background-color: #ffffff;
+    position: relative;
+}
+
+#list {
+    padding: 25px;
+    list-style-type: none;
+}
+
+li {
+    height: 20px;
+    font-size: 20px;
+    font-family: "helvetica";
+    margin-bottom:5px;
+}
+
+.add-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 0;
+    height: 40px;
+    width: 355px;
+    margin: 10px;
+    border-radius: 10px;
+    font-size: 30px;
+    border: 3px solid #eae6ec;
+    position: absolute;
+}
+
+#input {
+    width: 300px;
+    height: 30px;
+    font-size: 20px;
+    font-family: "helvetica";
+    border: 0;
+}
+
+.text {
+    display: inline;
+}
+
+.fas.fa-trash {
+    float: right;
+}
+
+.fas.fa-sync-alt:hover {
+    cursor: pointer;
+}
+
+.fas.fa-trash:hover{
+    cursor: pointer;
+}
+
+.far.fa-circle:hover{
+    cursor: pointer;
+}
